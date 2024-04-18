@@ -1,0 +1,106 @@
+h1,h2,p{
+    text-align:center;
+}
+
+body{
+    background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family:sans-serif;
+    /*콘텐츠(내용) 주변을 둘러싸고 있는 것이 padding이고 그것을 둘러싸는 border,가장 큰 
+    margin이 있다. padding 20px로 만들어 주변과 여백이 더 생기게 한다.*/
+    padding:20px;
+}
+
+.menu{
+    background-color:burlywood;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+    max-width:500px;
+}
+
+.flavor, .dessert{
+    text-align:left;
+    width:75%;
+}
+
+.price{
+    text-align:right;
+    width:25%;
+}
+
+.item p{
+    display:inline-block;
+    /*메뉴들 사이의 간격을 좁히기 위해 margin-top margin-bottom을 사용*/
+    margin-top:5px;
+    margin-bottom:5px;
+    /*폰트 크기를 18px*/
+    font-size:18px;
+}
+h1,h2{
+    font-family:Impact, serif;
+}
+.established{
+    font-style:italic;
+}
+
+/*h1 폰트 사이즈는 40px h2는 30px*/
+h1{
+    font-size:40px;
+    margin-top:0;
+    margin-bottom:15px;
+}
+h2{
+    font-size:30px;
+}
+/*구분선 두께 추가*/
+hr{
+    height:2px;
+    /*background color를 brown으로 */
+    background-color:brown;
+    /*테두리 색을 brown으로*/
+    border-color:brown;
+    /*테두리 두께를 1px : 그러면 heighr가 3px이라면 위,밑 합해 5px두께가 되므로 height를
+    2px로 줄인다. 그러면 총 4px*/
+
+}
+
+.bottom-line{
+    /*cinnamon Roll과 hr 사이를 더 넓힌다. 따라서 margin-top를 사용한다.*/
+    margin-top:25px;
+}
+
+/*FOOTER*/
+footer{
+    font-size:14px;
+}
+
+a{
+    /*모든 텍스트는 아무 색상도 적용하지 않으면 검은색. 링크를 가진 텍스트도 검정색으로
+    만들어주어야 하므로 앵커의 색을 black으로*/
+    color:black;
+}
+
+a:visited{
+    /*사용자가 링크를 방문하면 텍스트가 회색으로 변함*/
+    color:black; 
+}
+/*마우스를 링크 위로 가져가면 색이 갈색으로 변한다.*/
+a:hover{
+    color:brown;
+}
+
+a:active{
+    color:brown;
+}
+
+.address{
+    margin-bottom:5px;
+}
+
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+}
